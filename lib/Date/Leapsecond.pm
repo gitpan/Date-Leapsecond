@@ -10,7 +10,7 @@ our @ISA = qw(Exporter);
 our %EXPORT_TAGS = ( 'all' => [ qw() ] );
 our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw();
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub make_utx {
     my ($beg, $end, $tab, $op) = @_;
@@ -101,7 +101,7 @@ __END__
 
 =head1 NAME
 
-Date::Leapsecond - translates between UTC and UT1 timescales
+Date::Leapsecond - DEPRECATED: use "DateTime" distribution instead
 
 =head1 SYNOPSIS
 
